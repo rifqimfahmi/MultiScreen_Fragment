@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Multi Screen Fragment</string>
+
+    <string name="ColorsActivity">Colors</string>
+    <string name="NumbersActivity">Numbers</string>
+    <string name="FamilyActivity">Family Members</string>
+    <string name="PhrasesActivity">Phrases</string>
+</resources>

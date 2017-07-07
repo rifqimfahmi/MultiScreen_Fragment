@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="horizontal">
+        <ImageView android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:id="@+id/wordImage"
+                   android:padding="12dp"
+                   android:src="@drawable/family_daughter"/>
+
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="match_parent"
+                      tools:background="@color/colorPrimaryNumbers"
+                      android:id="@+id/textContainer"
+                      android:paddingLeft="16dp"
+                      android:paddingStart="16dp"
+                      android:paddingTop="24dp"
+                      android:paddingBottom="24dp"
+                      android:orientation="vertical">
+            <TextView
+                    tools:text="lutti"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:textStyle="bold"
+                    android:layout_weight="1"
+                    android:layout_marginBottom="4dp"
+                    android:textColor="#ffffff"
+                    android:gravity="bottom"
+                    android:id="@+id/miwokTranslate" android:textSize="18sp"/>
+            <TextView
+                    tools:text="One"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:gravity="top"
+                    android:textColor="#80ffffff"
+                    android:id="@+id/englishTranslate" android:textSize="18sp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_play_arrow_white_24dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="16dp"
+            android:layout_marginEnd="16dp"
+    />
+</RelativeLayout>
